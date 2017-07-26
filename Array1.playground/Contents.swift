@@ -27,3 +27,34 @@ print("นี้คือ intArrayNumber ใหม่ ==> \(inArrayNumber1)")
 print("StrName1 ==> \(strName1)")
 strName1.append("Jutamanee")
 print("StrNamme1 ==> \(strName1)")
+
+//การลบ สมาชิกของ Array
+print("intNumber1 ==> \(inArrayNumber1)")
+inArrayNumber1.remove(at: 2)
+print("intNumber1 =\(inArrayNumber1)")
+
+
+//นี้คือการเรียงสมาชิกในArray
+
+inArrayNumber1.append(10)
+inArrayNumber1.append(21)
+inArrayNumber1.append(56)
+print("intArrayNumber ==> \(inArrayNumber1)")
+inArrayNumber1.sort()
+print("intArrayNumbaer New==> \(inArrayNumber1)")
+
+//นี้คือการนับจำนวนสมาชิก
+let intCount = inArrayNumber1.count
+
+
+
+
+
+
+
+
+
+
+
+
+
