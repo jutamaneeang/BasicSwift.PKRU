@@ -26,3 +26,5 @@ print(strDicName)
 strDicName.removeValue(forKey: "iOS")
 
 print(strDicName)
+
+print(strDicName["XXX"])
